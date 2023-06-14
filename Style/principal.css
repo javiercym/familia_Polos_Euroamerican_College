@@ -1,0 +1,73 @@
+@font-face{
+    font-family: humanist;
+    src: url(../fonts/humanist-521-bold-condensed.otf) format('truetype');
+}
+body{
+    background-image: url(../image/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: humanist !important;
+}
+.btn{
+    background-color: #747E30 !important;
+    color: #fff !important;
+}
+
+.btn:hover{
+    background-color: #525a26 !important;
+    color: #f3f3f3 !important;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+} 
+.espaciado{
+    width: 800px !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: #d6d2c7dd;
+    padding: 30px;
+}
+.AZUL{
+    height: 20px;
+    width: 50px;
+    background-color: #0000ff;
+    border: 2px solid #000000;
+}
+.VERDE{
+    height: 20px;
+    width: 50px;
+    background-color: #008000;
+    border: 2px solid #000000;
+}
+.ROJO{
+    height: 20px;
+    width: 50px;
+    background-color: #ff0000;
+    border: 2px solid #000000;
+}
+.AMARILLO{
+    height: 20px;
+    width: 50px;
+    background-color: #ffff00;
+    border: 2px solid #000000;
+}
+.contenido{
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.margen{
+    padding: 10px 0px 10px 20px;
+    border-radius: 25px;
+    margin: 15px;
+    border: 1px solid;
+    color: #525a26;
+    font-size: 25px;
+    align-items: center;
+}
+
