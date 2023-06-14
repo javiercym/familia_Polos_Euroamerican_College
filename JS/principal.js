@@ -4,12 +4,12 @@ let rellenar = document.querySelector("#rellenar");
 var input = document.getElementById("nombreAlumno");
 
 if (localStorage.getItem("usuario") ==null) {
-    window.location="/index.html";
+    window.location="/familia_Polos_Euroamerican_College";
 }
 
 function cerrarSesion(){
     localStorage.clear();
-    window.location="/index.html";
+    window.location="/familia_Polos_Euroamerican_College";
 }
 
 function BuscarAlumno(){
