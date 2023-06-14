@@ -7,7 +7,7 @@ var cantidadPolos;
 obtenerDatos();
 
 if (localStorage.getItem("usuario") ==null) {
-  window.location="/index.html";
+  window.location="/familia_Polos_Euroamerican_College";
 }
 
 async function obtenerDatos(){
