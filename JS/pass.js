@@ -1,6 +1,6 @@
 function ingresar(){
  var usuario ="admin";
- var contraseña ="admin";
+ var contraseña ="@sistenci@$";
 
  if(document.form.pass.value == contraseña && document.form.user.value ==usuario){
     console.log("contraseña correcta");
